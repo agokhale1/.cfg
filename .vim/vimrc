@@ -1,0 +1,50 @@
+" -----------------
+" VIM Configuration
+" -----------------
+set nocompatible
+set secure
+filetype on
+
+set pastetoggle=<F11>
+
+" ----------------
+" UI Configuration
+" ----------------
+set t_Co=256
+set background=dark
+colo elflord
+
+syntax enable
+set showmatch
+set mat=2
+
+set mouse=a
+set ttymouse=sgr
+set whichwrap+=<,>,h,l,[,]
+set nowrap
+
+set number
+set ruler
+set showcmd
+set wildmenu
+
+" --------------------
+" Search Configuration
+" --------------------
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+
+" ------------------------
+" Whitespace Configuration
+" ------------------------
+autocmd FileType make set tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set autoindent
+set smartindent

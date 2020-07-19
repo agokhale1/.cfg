@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+
+!/.vim/
+!/.vim/**
+
+!/.gnupg/
+!/.gnupg/gpg-agent.conf
+
+!.bashrc
+!.bash_aliases
+!.profile
